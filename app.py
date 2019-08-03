@@ -1,5 +1,4 @@
 import os
-
 import pandas as pd
 import numpy as np
 # import request
@@ -12,6 +11,7 @@ import tweepy
 import json
 from query_functions import api_topic,text_transform
 from model import * #model function goes Here
+from lstm import LSTM
 from utils import tokenize,preprocess
 
 app= Flask(__name__)
